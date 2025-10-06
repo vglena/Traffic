@@ -31,19 +31,14 @@ The project contains the following main components:
 
 ## File structure
 ```text
-traffic/
+traffic-sign-recognition/
 │
-├── gtsrb/                     # Dataset folder
+├── gtsrb/                     # Dataset sample
 │   ├── 0/
-│   ├── 1/
-│   ├── 2/
-│   └── ...                    # Up to 42
-│
 ├── traffic.py                 # Main program for training/evaluating the model
 ├── README.md                  # Project documentation
 ├── requirements.txt           # Required Python packages
 ├── LICENSE                    # License file (MIT License)
-├── model.h5                   # Example trained model
 ```
 
 ## Installation
